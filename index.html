@@ -7,16 +7,14 @@
     <body>
         <ul class="menu-bar">
             <li><a href="index.html">Home</a></li>
-            <li><a href="Accommodation.html">Accommodation</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="Travel-Arrangements.html">Travel Arrangements</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="#section-accommodation">Accommodation</a></li>
+            <li><a href="#section-contact">Contact Us</a></li>
         </ul>
         <section class="description">
             <h1><p>Welcome to Chalbi Resort <br><em>The only thing we overlook is the serene view</em></p></h1>
             <p class="more-details">Surrender yourself to the natural and untouched beauty of the Adirondack Mountains at the first resort in namibia to receive the Audubon International’s Platinum Eco Rating for Hotels. There are now only six hotels in the country to obtain this honor! It’s a place to renew yourself on the serene shores of Mirror Lake, and take in the history of the town, just steps away from the famed Victoia falls and the heart of Zambezi River. No other place on earth provides this unique blend of comfort, rejuvenation, or one-of-a-kind experiences. Start planning your stay at the Chalbi Resort now! </p>
         </section>
-        <section class="acommodation">
+        <div class="acommodation" id="section-accommodation">
             <h1 class="header">Accommodation</h1>
             <hr>
             <div class="accommodation-content">
@@ -35,18 +33,23 @@
                     <p class="customise-room-details">Pets are restricted to Deluxe Rooms on the 3rd floor only, make sure to specify a pet-friendly room! Mountain Rooms Deluxe Mountain view Room with 2 Queen BedsDeluxe mountain view Room with 1 King Bed. There are two sets of Deluxe Rooms on the lakeside that connect and have two queen beds.  Maximum capacity – 4 people per room.</p>  
                 </div>
             </div>
-        </section>
-        <section class="contactus-section">
+        </div>
+        <div class="contacts" id="section-contact">
             <form>
-                <input type="text"  placeholder="Enter yourName">
-                <input type="email" placeholder= "Enter your Email Address">
-                <input type="tel"  placeholder="+2547 90943918">
-                <lable>Check In date</lable><input type="date" value="checkin">
-                <labele>Checkout Date</labele><input type="date" value="Checkout">
-                <input type="textarea" placeholder="How can we help you">
-
-            </form>
-
-        </section>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <lable for= "mail">Email Address</lable>
+                <input type="email" id="mail" name="email" placeholder="Enter your e-mail address">
+                <lable for="indate">Check In Date</lable>
+                <input type="date" id="indate" name="chck-in-date">
+                <label for="outdate">Check Out Date</label>
+                <input type="date" id="outdate" name="chck-out-date">
+                <label for="subject"></label> 
+                <input type="textarea" id="subject" name="message" placeholder="How can we be of help to you">
+                <input type="submit" value="Submit">
+            </form>  
+        </div>
     </body>
 </html>
