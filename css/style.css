@@ -56,31 +56,61 @@ img.room-image {
     float: right;
     margin-right: 70px;
 }
+.contact-form {
+    border: 1px solid;
+    width: 30%;
+    content: center;
+    margin-left: 35%;
+    border-style: none;
+}
 
 input {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
+.contacts {
+    background-image: url(../Images/sunset1.jpg);
+    opacity: 55%;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
   
-  input[type=submit] {
+input[type=submit] {
     width: 50%;
     background-color:blueviolet;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin-left:25%;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  .contacts #section-contact {
-      border:1px solid;
-  }
+}
+
+label {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      color:black
+}
+input {
+    color: blue;
+    font-size: large;
+}
+textarea {
+    color: blue;
+    font-size:large;
+}
