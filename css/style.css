@@ -37,28 +37,28 @@ h1.header {
     text-align: center;
     font-style: oblique;
 }
-.room-image img {
+.acommodation {
+    border: 1px solid;
+    border-style: none;
+}
+img.room-image {
     border-radius: 15px;
     width: 500px;
-    margin: auto;
+    margin-left:70px;
+}
+.room-image {
+    padding: o 200px 20px 0;
 }
 .customise-room-details {
     font-style: oblique;
-    text-align: justify;
-    content: center;
     font-size: larger;
+    width: 500px;
+    float: right;
+    margin-right: 70px;
 }
-.accommodation-content {
-    width: 400px;
-    margin-left:8px;
-    float:left;
-    padding-left:20px;
-}
-#single-room {
-    margin-left: 340px;
-}
+
 input {
-    width: 100%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -68,7 +68,7 @@ input {
   }
   
   input[type=submit] {
-    width: 100%;
+    width: 50%;
     background-color:blueviolet;
     color: white;
     padding: 14px 20px;
@@ -81,9 +81,6 @@ input {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
-  .contacts {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+  .contacts #section-contact {
+      border:1px solid;
   }
