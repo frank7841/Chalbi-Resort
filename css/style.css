@@ -36,4 +36,9 @@ h1.header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     text-decoration: underline;
+    font-style: oblique;
+}
+.room-image {
+    border-radius: 15px;
+    width: 300px;
 }
