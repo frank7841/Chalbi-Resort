@@ -74,8 +74,7 @@ input {
     box-sizing: border-box;
 }
 .contacts {
-    background-image: url(../Images/sunset1.jpg);
-    opacity: 55%;
+    background-color: burlywood;
 }
 textarea {
     width: 100%;
